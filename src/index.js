@@ -3,6 +3,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import ejs from 'ejs';
 import fs from 'fs';
+import moment from 'moment';
 import PoopyDiScoop from 'poopy-di-scoop';
 
 export default class PoopyDiScoopCms {
@@ -79,7 +80,8 @@ export default class PoopyDiScoopCms {
         title,
         component,
         tags,
-        params
+        params,
+        date: moment().format("YYYY-MM-DD")
       };
 
       (async function () {

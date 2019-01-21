@@ -23,6 +23,7 @@
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "expres": "0.0.5",
+    "moment": "^2.23.0",
     "poopy-di-scoop": "^1.0.27"
   },
   "devDependencies": {
